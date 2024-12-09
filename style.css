@@ -1,0 +1,35 @@
+body{
+    background-color: #06bcc1;
+}
+
+.conatainer{
+    border: 1px solid black;
+    display: flex;
+    width: 95%;
+    height: 100vh;
+}
+
+.qoutes{
+    border: 1px solid black;
+    width: 900px;
+    height: 450px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 50px;
+    color: grey;
+    background-color: #f4edea;
+    border: 10px solid #f4d1ae;
+}
+
+.qoutes p, .qoutes h3{
+    font-size: 1.5rem;
+}
+@media (max-width:480px) {
+    .qoutes p, .qoutes h3{
+        font-size: 1rem;
+    }
+    
+}
